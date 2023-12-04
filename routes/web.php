@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
     //return view('welcome');
 //});
 
-Route::resource('/user' , \App\Http\Controllers\UserController::class);
+//Route::resource('/user' , \App\Http\Controllers\UserController::class);
 
 Route::Resource('/artikel', App\Http\Controllers\ArtikelController::class);
